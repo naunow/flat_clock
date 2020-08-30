@@ -5,7 +5,6 @@ import 'package:flatclock/screens/clock.dart';
 import 'package:flatclock/screens/date_display.dart';
 import 'package:flatclock/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
