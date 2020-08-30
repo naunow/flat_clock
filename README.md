@@ -1,4 +1,6 @@
 # Flat Clock
+[![Codemagic build status](https://api.codemagic.io/apps/5f4b5deca04804077deb7748/5f4b5deca04804077deb7747/status_badge.svg)](https://codemagic.io/apps/5f4b5deca04804077deb7748/5f4b5deca04804077deb7747/latest_build)
+
 A simple clock application built with Flutter.
 
 ## App preview
