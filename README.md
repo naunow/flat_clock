@@ -5,6 +5,6 @@ A simple clock application built with Flutter.
 
 This application has light mode and dark mode.
 
-![light mode](https://user-images.githubusercontent.com/54844737/91654034-b0eb3580-eae0-11ea-8e31-05c5c4a0ea7e.png)
+![lightmode](https://user-images.githubusercontent.com/54844737/91654921-da5b8f80-eae7-11ea-819e-b8a5b21156c1.png)
 
-![dark mode](https://user-images.githubusercontent.com/54844737/91654036-b21c6280-eae0-11ea-9aad-f0963d4d6470.png)
+![darkmode](https://user-images.githubusercontent.com/54844737/91654920-d92a6280-eae7-11ea-8a98-652d2a717aae.png)
