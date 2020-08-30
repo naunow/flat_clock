@@ -1,6 +1,8 @@
 import 'package:flatclock/constants.dart';
 import 'package:flatclock/models/my_theme_provider.dart';
+import 'package:flatclock/screens/calender.dart';
 import 'package:flatclock/screens/clock.dart';
+import 'package:flatclock/screens/date_display.dart';
 import 'package:flatclock/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -12,11 +14,11 @@ class HomeScreen extends StatelessWidget {
     SizeConfig().init(context);
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(Icons.view_headline),
-          color: Theme.of(context).iconTheme.color,
-          onPressed: () {},
-        ),
+        // leading: IconButton(
+        //   icon: Icon(Icons.view_headline),
+        //   color: Theme.of(context).iconTheme.color,
+        //   onPressed: () {},
+        // ),
         actions: [
           Consumer<MyThemeModel>(
             builder: (context, theme, child) => IconButton(
@@ -29,7 +31,15 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Clock(),
+      body: Column(
+        children: <Widget>[
+          Clock(),
+          SizedBox(
+            height: 30,
+          ),
+          DateDisplay(),
+        ],
+      ),
     );
   }
 }

@@ -115,8 +115,8 @@ class ClockPainter extends CustomPainter {
         ..strokeWidth = 2.0,
     );
     // Second Dot
-    canvas.drawCircle(Offset(secondX, secondY), 8,
-        Paint()..color = Theme.of(context).primaryColor);
+    // canvas.drawCircle(Offset(secondX, secondY), 8,
+    //     Paint()..color = Theme.of(context).primaryColor);
 
     // Center dots
     Paint dotPainter = Paint()
